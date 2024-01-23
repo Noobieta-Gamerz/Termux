@@ -1,10 +1,9 @@
-install mysql on termux
-apt update && apt upgrade -y
-apt install mariadb -y
-setelah beres install :
+install mysql on termux <br>
+apt update && apt upgrade -y <br>
+apt install mariadb -y <br>
+setelah beres install :<br>
 start mysql :
 1. mysqld &
-2. mysql -uroot
-
-jika tidak bisa restart dulu termux atau hpnya!
+2. mysql -uroot <br>
+jika tidak bisa restart dulu termux atau hpnya!<br>
 masuk lagi termux dan jalankan perintah 1 dan 2 lagi!
