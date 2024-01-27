@@ -1,14 +1,16 @@
-"AL-TERMUX (ALPINE AND TERMUX)"<br>
-##CARA INSTALL<br>
+AL-TERMUX (ALPINE AND TERMUX)
+=============================
+<br>
+#CARA INSTALL<br>
 1.install proot-distro terlebih dahulu :<br>
-'''
+```
 apt install proot-distro
-'''
+```
 <br>
 2.clone repo <br>
-'''
+```
 test
-'''
+```
 <br>
 
 Configuration
