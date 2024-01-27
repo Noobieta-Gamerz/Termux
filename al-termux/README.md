@@ -1,16 +1,20 @@
 AL-TERMUX (ALPINE AND TERMUX)
 =============================
-<br>
-# CARA INSTALL<br>
-1.install proot-distro terlebih dahulu :</br>
-```apt install proot-distro
+## CARA INSTALL<br>
+1.install proot-distro terlebih dahulu :
 ```
-<br>
-2.clone repo <br>
+apt install proot-distro
 ```
-test
+2.Install alpine linux
 ```
-<br>
+proot-distro install alpine
+```
+3.Clone Repo dan install
+```
+git clone
+cd
+chmod +x install.sh
+```
 
 Configuration
 =============
