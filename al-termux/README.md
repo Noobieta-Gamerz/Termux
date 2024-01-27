@@ -1,5 +1,6 @@
 AL-TERMUX (ALPINE AND TERMUX)
 =============================
+![noobieta screenshot](https://github.com/Noobieta-Gamerz/Termux/blob/main/al-termux/Screenshot_20240127-184323.jpg)
 ## CARA INSTALL
 1. Install proot-distro terlebih dahulu :
 ```
@@ -13,6 +14,7 @@ proot-distro install alpine
 ```
 curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/al-termux/install.sh | sh
 ```
+![noobieta screenshoot](https://github.com/Noobieta-Gamerz/Termux/blob/main/al-termux/Screenshot_20240127-184531.jpg)
 
 Configuration
 =============
