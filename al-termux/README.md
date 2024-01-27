@@ -1,6 +1,9 @@
 AL-TERMUX (ALPINE AND TERMUX)
 =============================
 ![noobieta screenshot](https://github.com/Noobieta-Gamerz/Termux/blob/main/al-termux/Screenshot_20240127-184323.jpg)
+
+  Al-Termux atau mixtermux adalah  menggabungkan perintah system termux dengan beberapa perintah system dari salah satu distro linux lainya atau all in one 😄!!!
+
 ## CARA INSTALL
 1. Install proot-distro terlebih dahulu :
 ```
