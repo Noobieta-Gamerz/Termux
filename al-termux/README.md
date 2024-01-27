@@ -1,6 +1,6 @@
 AL-TERMUX (ALPINE AND TERMUX)
 =============================
-## CARA INSTALL<br>
+## CARA INSTALL
 1. Install proot-distro terlebih dahulu :
 ```
 apt install proot-distro
