@@ -1,19 +1,17 @@
 AL-TERMUX (ALPINE AND TERMUX)
 =============================
 ## CARA INSTALL<br>
-1.install proot-distro terlebih dahulu :
+1. Install proot-distro terlebih dahulu :
 ```
 apt install proot-distro
 ```
-2.Install alpine linux
+2. Install alpine linux
 ```
 proot-distro install alpine
 ```
-3.Clone Repo dan install
+3. Setelah selesa install alpine copas 👇 di termux
 ```
-git clone
-cd
-chmod +x install.sh
+curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/al-termux/install.sh | sh
 ```
 
 Configuration
@@ -39,3 +37,5 @@ Uninstalling
 Uninstalling step is very easy. Just do this:
 
   pkg reinstall command-not-found bash termux-tools
+### Reference
+*https://github.com/Yonle/MixedTermux
