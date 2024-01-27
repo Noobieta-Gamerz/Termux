@@ -30,12 +30,14 @@ Pulseaudio is known to be Battery intensive, So you should kill it often after f
 
 Or, if you want to start pulseaudio so it has sound support everytime you execute some command, You may execute this command (Note: Execute once. Twice will cause fatal problem):
 
-  echo "! pulseaudio --check && pulseaudio --start --exit-idle-time=-1" >> ~/.mixedtermuxrc
-
+```
+echo "! pulseaudio --check && pulseaudio --start --exit-idle-time=-1" >> ~/.mixedtermuxrc
+```
 Uninstalling
 ============
 Uninstalling step is very easy. Just do this:
-
-  pkg reinstall command-not-found bash termux-tools
+```
+pkg reinstall command-not-found bash termux-tools
+```
 ### Reference
 *https://github.com/Yonle/MixedTermux
