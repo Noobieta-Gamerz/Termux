@@ -22,7 +22,7 @@ systemctl enable nginx
 ```
 3. Selanjutnya, Anda perlu membuka port 80 dan 443 untuk mengizinkan lalu lintas web ke layanan Nginx, perbarui aturan firewall sistem untuk mengizinkan paket masuk di HTTP dan HTTPS menggunakan perintah di bawah ini
 ```
-firewall-cmd --zone=publik --permanent --add-service=http 
+firewall-cmd --zone=public --permanent --add-service=http 
 firewall-cmd --zone=public --permanent --add-service=https 
 firewall-cmd --reload
 ```
