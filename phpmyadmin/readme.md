@@ -10,3 +10,5 @@ Link phpmyadmin ke lokasi apache2 disini saya menggunakan apache2
 ```
 ln $PREFIX/share/phpmyadmin $PREFIX/share/apache2/default-site/htdocs/
 ```
+
+#### Reference
