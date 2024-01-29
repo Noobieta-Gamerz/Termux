@@ -17,8 +17,8 @@ yum install nginx
 ```
 2. Setelah Anda menginstal server web Nginx, Anda dapat memulainya untuk pertama kali dan mengaktifkannya untuk memulai secara otomatis saat boot sistem.
 ```
-systemctl mulai nginx 
-systemctl aktifkan nginx
+systemctl start nginx 
+systemctl enable nginx
 ```
 3. Selanjutnya, Anda perlu membuka port 80 dan 443 untuk mengizinkan lalu lintas web ke layanan Nginx, perbarui aturan firewall sistem untuk mengizinkan paket masuk di HTTP dan HTTPS menggunakan perintah di bawah ini
 ```
