@@ -55,3 +55,5 @@ enabled=1
 >gpgcheck harus bernilai 0
 
 ### selamat 🥳 redhat anda bisa update !!!
+#### Reference :
+-[x] [Redhat Free Mirror list]
