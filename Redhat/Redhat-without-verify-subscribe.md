@@ -14,7 +14,8 @@ ada beberapa cara :
 ```
 sudo nano /etc/yum/pluginconf.d/search-disabled-repos.conf
 ```
-![ss](https://imagizer.imageshack.com/v2/320xq70/r/924/hAll2J.jpg)
+![ss](https://imagizer.imageshack.com/img924/4513/pXeFtp.jpg)
+
 ```
 [main]
 enabled=1
