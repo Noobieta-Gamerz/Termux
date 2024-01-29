@@ -10,7 +10,7 @@ ada beberapa cara :
 3. Free repo redhat :octocat: nice nice 😄
 
 ### kita akan menggunakan cara ke 3 
-#### disable plugin redhat
+#### Step 2 disable plugin redhat
 ```
 sudo nano /etc/yum/pluginconf.d/search-disabled-repos.conf
 ```
@@ -26,7 +26,7 @@ enabled=0
 ```
 ![ss](https://imagizer.imageshack.com/img922/2857/mYnar2.jpg)
 dan save ctrl+x
-### Membuat custom repo redhat
+### Step 3 Membuat custom repo redhat
 ```
 sudo nano /etc/yum.repos.d/redhat-custom.repo
 ```
