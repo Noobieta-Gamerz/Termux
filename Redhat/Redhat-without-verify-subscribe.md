@@ -56,4 +56,5 @@ enabled=1
 
 ### selamat 🥳 redhat anda bisa update !!!
 #### Reference :
--[x] [Redhat Free Mirror list]
+- [x] [Redhat Free Mirror list](http://ftp.riken.jp/Linux/scientific/7.6/x86_64/os/)
+- [x] [scientificlinux](http://ftp.scientificlinux.org/linux/scientific/7.6/x86_64/os/)
