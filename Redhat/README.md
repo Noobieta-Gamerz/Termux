@@ -3,3 +3,10 @@
 ![ss google](https://i0.wp.com/www.webpronews.com/wp-content/uploads/2023/06/Red-Hat-Logo-1.jpg)
 1. Install Redhat OS Free
 2. [Redhat No Verification](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Redhat-without-verify-subscribe.md)
+
+#### Mirror list
+* [tsukuba](http://ftp.tsukuba.wide.ad.jp/Linux/)
+*  [scientificlinux](http://ftp.scientificlinux.org/linux/scientific/)
+*  [riken](http://ftp.riken.jp/Linux/scientific/)
+*  [linuxsoft.cern](http://linuxsoft.cern.ch/scientific/)
+*  [yamagata](http://ftp.yz.yamagata-u.ac.jp/pub/linux/)
