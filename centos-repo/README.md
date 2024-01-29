@@ -7,7 +7,7 @@
 1. [Repo Base Centos 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/centos-repo/centos-base.repo)
 2. [Membuat Server local repositories](https://github.com/Noobieta-Gamerz/Termux/blob/main/centos-repo/setting-local-repo-centos-7.md)
 
-## Reference
+#### :octocat: Reference :
 >[!TIP]
 > #### :octocat: Noob Guide 😄
 - [x] [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
