@@ -1,5 +1,5 @@
-Setting Up Local Repositories - CentOS 7
-==================
+<h2><p align="center">Setting Up Local Repositories - CentOS 7</p></h2>
+
 ![ss dari google cok 😄](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzeJ3nDYl8O8JD_gTJJrIZecMqprxrbPAWmw&usqp=CAU)
 ### Preconditions: 
 1. Persyaratan penyimpanan repositori lokal didasarkan pada jumlah repositori yang Anda aktifkan dan sinkronkan. Jika Anda hanya mengaktifkan repositori yang disebutkan di bawah, 150GB sudah cukup, jika tidak- kami sarankan untuk mengalokasikan hingga 400 GB.
