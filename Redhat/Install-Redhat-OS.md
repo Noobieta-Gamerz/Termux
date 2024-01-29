@@ -11,6 +11,7 @@
 ### Step 2 Boot with Media
 
 Memebuat bootable os menggunakan android download 👇
+
 [![ssdownload](https://nobita-gamerz.github.io/img-asset/Download.png)](https://play.google.com/store/apps/details?id=eu.depau.etchdroid&hl=en)
 
 >[!NOTE]
