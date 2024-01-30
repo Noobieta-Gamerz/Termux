@@ -11,3 +11,4 @@
 *  [riken](http://ftp.riken.jp/Linux/scientific/)
 *  [linuxsoft.cern](http://linuxsoft.cern.ch/scientific/)
 *  [yamagata](http://ftp.yz.yamagata-u.ac.jp/pub/linux/)
+- [x] *  [Official Mirror Redhat](https://cdn-ubi.redhat.com/content/public/ubi)
