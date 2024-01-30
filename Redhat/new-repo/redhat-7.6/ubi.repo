@@ -1,0 +1,70 @@
+[Redhat-7-baseos-rpms]
+name = Red Hat Universal Base Image 7 (RPMs) - BaseOS
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/baseos/os
+enabled = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-baseos-debug-rpms]
+name = Red Hat Universal Base Image 7 (Debug RPMs) - BaseOS
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/baseos/debug
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-baseos-source]
+name = Red Hat Universal Base Image 7 (Source RPMs) - BaseOS
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/baseos/source/SRPMS
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-appstream-rpms]
+name = Red Hat Universal Base Image 7 (RPMs) - AppStream
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/appstream/os
+enabled = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-appstream-debug-rpms]
+name = Red Hat Universal Base Image 7 (Debug RPMs) - AppStream
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/appstream/debug
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-appstream-source]
+name = Red Hat Universal Base Image 7 (Source RPMs) - AppStream
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/appstream/source/SRPMS
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-codeready-builder-rpms]
+name = Red Hat Universal Base Image 7 (RPMs) - CodeReady Builder
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/codeready-builder/os
+enabled = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-codeready-builder]
+name = Red Hat Universal Base Image 7 (RPMs) - CodeReady Builder
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/codeready-builder/os
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+
+[Redhat-7-codeready-builder-debug-rpms]
+name = Red Hat Universal Base Image 7 (Debug RPMs) - CodeReady Builder
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/codeready-builder/debug
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
+
+[Redhat-7-codeready-builder-source]
+name = Red Hat Universal Base Image 7 (Source RPMs) - CodeReady Builder
+baseurl = https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi/server/7/$basearch/codeready-builder/source/SRPMS
+enabled = 0
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+gpgcheck = 1
