@@ -19,7 +19,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "http://localhost/Ootpa-${archurl}.tar.gz" -O $tarball
+		wget "https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/.rootfs-arm64/Ootpa/Ootpa-${archurl}.tar.gz" -O $tarball
 	fi
 	
 	mkdir -p "$folder"
