@@ -19,7 +19,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/AndronixApp/AndronixOrigin/raw/master/Rootfs/Ubuntu22/redhat-${archurl}.tar.gz" -O $tarball
+		wget "http://localhost/redhat08-${archurl}.tar.gz" -O $tarball
 	fi
 	
 	mkdir -p "$folder"
@@ -29,7 +29,7 @@ if [ "$first" != 1 ];then
 	cd "$cur"
 fi
 
-mkdir -p ubuntu22-binds
+mkdir -p redhat08-binds
 mkdir -p ${folder}/proc/fakethings
 
 if [ ! -f "${cur}/${folder}/proc/fakethings/stat" ]; then
@@ -56,7 +56,7 @@ fi
 
 if [ ! -f "${cur}/${folder}/proc/fakethings/version" ]; then
 	cat <<- EOF > "${cur}/${folder}/proc/fakethings/version"
-	Linux version 5.4.0-faked (andronix@fakeandroid) (gcc version 4.9.x (Andronix fake /proc/version) ) #1 SMP PREEMPT Sun Sep 13 00:00:00 IST 2020
+	Linux version 5.4.0-faked (noobieta@fakeandroid) (gcc version 4.9.x (Redhat fake /proc/version) ) #1 SMP PREEMPT Sun Sep 13 00:00:00 IST 2020
 	EOF
 fi
 
@@ -168,7 +168,7 @@ if [ ! -f "${cur}/${folder}/proc/fakethings/vmstat" ]; then
 	EOF
 fi
 
-bin=start-ubuntu22.sh
+bin=start-redhat08.sh
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
@@ -180,8 +180,8 @@ command+=" --kill-on-exit"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $folder"
-if [ -n "\$(ls -A ubuntu22-binds)" ]; then
-    for f in ubuntu22-binds/* ;do
+if [ -n "\$(ls -A redhat08-binds)" ]; then
+    for f in redhat08-binds/* ;do
       . \$f
     done
 fi
@@ -189,7 +189,7 @@ command+=" -b /dev"
 command+=" -b /proc"
 command+=" -b /sys"
 command+=" -b /data"
-command+=" -b ubuntu22-fs/root:/dev/shm"
+command+=" -b redhat08-fs/root:/dev/shm"
 command+=" -b /proc/self/fd/2:/dev/stderr"
 command+=" -b /proc/self/fd/1:/dev/stdout"
 command+=" -b /proc/self/fd/0:/dev/stdin"
@@ -217,7 +217,7 @@ else
 fi
 EOM
 
-chmod +x ubuntu22-fs/root/.bash_profile
+chmod +x redhat08-fs/root/.bash_profile
 touch $folder/root/.hushlogin
 echo "127.0.0.1 localhost localhost" > $folder/etc/hosts
 echo "nameserver 1.1.1.1" > $folder/etc/resolv.conf
