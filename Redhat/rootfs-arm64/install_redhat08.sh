@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg install nala -y
+apt install nala -y
 nala install wget proot -y
 folder=rhelootpa-fs
 cur=`pwd`
@@ -20,7 +20,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/.rootfs-arm64/Ootpa/Ootpa-${archurl}.tar.gz" -O $tarball
+		wget "https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/rootfs-arm64/Ootpa/Ootpa-${archurl}.tar.gz" -O $tarball
 	fi
 	
 	mkdir -p "$folder"
