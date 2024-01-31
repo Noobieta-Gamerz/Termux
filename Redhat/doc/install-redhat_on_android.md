@@ -23,4 +23,11 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 
 ![my ss](https://imagizer.imageshack.com/img924/7167/GLNAOr.jpg)
 
-[!NOTE]
+>[!NOTE]
+> We need `setenforce 0`
+>how to ?
+>```
+>tsu
+>setenforce 0
+>```
+
