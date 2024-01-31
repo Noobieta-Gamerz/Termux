@@ -2,8 +2,6 @@
 
 ![my ss oooy](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)
 
-[![my video](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)](https://www.youtube.com/watch?v=XdpjWWzThJY)
-
 ### copy paste on your termux
 ```
 apt update && apt upgrade -y
@@ -12,6 +10,10 @@ apt install curl -y
 ```
 curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/rootfs-arm64/install_redhat08.sh | bash
 ```
+#### Review Video 
+
+[![my video](https://img.youtube.com/vi/XdpjWWzThJY/mqdefault.jpg)](https://www.youtube.com/watch?v=XdpjWWzThJY)
+
 - [x] update
 - [x] install packages redhat
 - [ ] ps -a
