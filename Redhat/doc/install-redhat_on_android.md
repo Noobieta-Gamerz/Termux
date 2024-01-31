@@ -40,5 +40,5 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 
 :octocat: good luck 😁
 
-`redhat` `redhat-arm64`
+`ane tamvan 😄` `redhat` `redhat-arm64`
 
