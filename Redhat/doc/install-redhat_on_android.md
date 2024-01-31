@@ -34,7 +34,7 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 
 >[!TIP]
 >```
-> 🧐🔓`Need Root`
+> 🧐🔓 #Need Root
 >tsu
 >setenforce 0
 >```
