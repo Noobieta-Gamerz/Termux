@@ -10,7 +10,7 @@ apt install curl -y
 ```
 curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/rootfs-arm64/install_redhat08.sh | bash
 ```
-#### Review Video 
+### Check Video 😁 👇
 
 [![my video](https://img.youtube.com/vi/XdpjWWzThJY/mqdefault.jpg)](https://www.youtube.com/watch?v=XdpjWWzThJY)
 
