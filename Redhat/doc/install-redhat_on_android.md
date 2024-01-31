@@ -30,10 +30,14 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 >[!NOTE]
 > We need `setenforce 0`
 >how to ?
+
+>[!TIP]
 >```
 >tsu
 >setenforce 0
 >```
 
 :octocat: good luck 😁
+
+`redhat` `redhat-arm64`
 
