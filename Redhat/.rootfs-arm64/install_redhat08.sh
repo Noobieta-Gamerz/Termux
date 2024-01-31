@@ -220,7 +220,7 @@ EOM
 chmod +x redhat08-fs/root/.bash_profile
 touch $folder/root/.hushlogin
 echo "127.0.0.1 localhost localhost" > $folder/etc/hosts
-echo "nameserver 1.1.1.1" > $folder/etc/resolv.conf
+echo "nameserver 8.8.8.8" > $folder/etc/resolv.conf
 chmod +x $folder/etc/resolv.conf
 echo "fixing shebang of $bin"
 termux-fix-shebang $bin
