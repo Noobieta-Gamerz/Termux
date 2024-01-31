@@ -2,6 +2,8 @@
 
 ![my ss oooy](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)
 
+[![my video](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)](https://www.youtube.com/watch?v=XdpjWWzThJY)
+
 ### copy paste on your termux
 ```
 apt update && apt upgrade -y
