@@ -13,7 +13,7 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 ```
 ### Check Video 😁 👇
 
-[![my video](https://img.youtube.com/vi/XdpjWWzThJY/mqdefault.jpg)](https://www.youtube.com/watch?v=XdpjWWzThJY)
+[![](https://markdown-videos-api.jorgenkh.no/youtube/XdpjWWzThJY)](https://youtu.be/XdpjWWzThJY)
 
 - [x] update
 - [x] install packages redhat
