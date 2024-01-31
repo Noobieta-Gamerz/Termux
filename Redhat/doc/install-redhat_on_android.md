@@ -35,3 +35,5 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/ro
 >setenforce 0
 >```
 
+:octocat: good luck 😁
+
