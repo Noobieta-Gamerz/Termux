@@ -1,6 +1,7 @@
 <h2><p align="center">INSTALL REDHAT OS ON ANDROID</p></h2>
-
-![my ss oooy](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)
+<p align="center" width="100%">
+    <img width="100%" src="https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg"> 
+</p>
 
 ### copy paste on your termux
 ```
