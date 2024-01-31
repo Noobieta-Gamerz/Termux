@@ -1,12 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install wget -y 
-folder=ubuntu22-fs
+folder=redhat08-fs
 cur=`pwd`
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
 fi
-tarball="ubuntu22-rootfs.tar.gz"
+tarball="redhat08-rootfs.tar.gz"
 
 termux-setup-storage
 
@@ -19,7 +19,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/AndronixApp/AndronixOrigin/raw/master/Rootfs/Ubuntu22/jammy-${archurl}.tar.gz" -O $tarball
+		wget "https://github.com/AndronixApp/AndronixOrigin/raw/master/Rootfs/Ubuntu22/redhat-${archurl}.tar.gz" -O $tarball
 	fi
 	
 	mkdir -p "$folder"
