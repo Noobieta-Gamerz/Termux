@@ -1,35 +1,35 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install wget -y 
-folder=redhat08-fs
+folder=rhelootpa-fs
 cur=`pwd`
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
 fi
-tarball="redhat08-rootfs.tar.gz"
+tarball="redhat-rootfs.tar.gz"
 
 termux-setup-storage
 
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
-		echo "Download Rootfs, this may take a while base on your internet speed."
+		echo "Download Rootfs, this may take a while base on your internet speed.😎"
 		case `dpkg --print-architecture` in
 		aarch64)
 			archurl="arm64" ;;
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "http://localhost/redhat08-${archurl}.tar.gz" -O $tarball
+		wget "http://localhost/Ootpa-${archurl}.tar.gz" -O $tarball
 	fi
 	
 	mkdir -p "$folder"
 	cd "$folder"
-	echo "Decompressing Rootfs, please be patient."
+	echo "Decompressing Rootfs, please be patient.🙊"
 	proot --link2symlink tar -xf ${cur}/${tarball} --exclude=dev||:
 	cd "$cur"
 fi
 
-mkdir -p redhat08-binds
+mkdir -p rhelootpa-binds
 mkdir -p ${folder}/proc/fakethings
 
 if [ ! -f "${cur}/${folder}/proc/fakethings/stat" ]; then
@@ -168,7 +168,7 @@ if [ ! -f "${cur}/${folder}/proc/fakethings/vmstat" ]; then
 	EOF
 fi
 
-bin=start-redhat08.sh
+bin=start-redhatootpa.sh
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
@@ -180,8 +180,8 @@ command+=" --kill-on-exit"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $folder"
-if [ -n "\$(ls -A redhat08-binds)" ]; then
-    for f in redhat08-binds/* ;do
+if [ -n "\$(ls -A rhelootpa-binds)" ]; then
+    for f in rhelootpa-binds/* ;do
       . \$f
     done
 fi
@@ -217,7 +217,7 @@ else
 fi
 EOM
 
-chmod +x redhat08-fs/root/.bash_profile
+chmod +x rhelootpa-fs/root/.bash_profile
 touch $folder/root/.hushlogin
 echo "127.0.0.1 localhost localhost" > $folder/etc/hosts
 echo "nameserver 8.8.8.8" > $folder/etc/resolv.conf
@@ -229,5 +229,5 @@ chmod +x $bin
 echo "removing image for some space"
 rm $tarball
 clear
-echo "You can now launch Ubuntu with the ./${bin} script from next time"
+echo "Horeeee 😄 You can now launch redhat Ootpa with the ./${bin} script from next time"
 bash $bin
