@@ -2,6 +2,7 @@
 
 ![my ss oooy](https://imagizer.imageshack.com/img922/2455/aEOcpi.jpg)
 
+### copy paste on your termux
 ```
 apt update && apt upgrade -y
 apt install curl -y
