@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg install wget -y 
+pkg install nala -y
+nala install wget proot -y
 folder=rhelootpa-fs
 cur=`pwd`
 if [ -d "$folder" ]; then
