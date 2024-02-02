@@ -15,8 +15,8 @@ wget https://download939.mediafire.com/na08wg9dbxsg1ZJl2kYsSG4QN6ZYyg12uDVd8mvr7
 echo ""
 echo -e "   Wait for extract (^_^) ... "
 echo ""
-tar -xJf ubuntu-rootfs.tar.xz
-
+tar -xvf ubuntu-rootfs.tar.xz
+cd ~/vm-termux
 figlet -c Finish yey
 
 echo "  $(date)"
