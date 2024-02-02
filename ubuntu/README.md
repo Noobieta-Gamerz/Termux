@@ -15,8 +15,8 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x8
 
 ```
 #Download and extract
-apt install proot
--xvf ubuntu-rootfs.tar.xz
+apt install tar proot
+tar -xvf ubuntu-rootfs.tar.xz
 #for run :
 ./start-ubuntu.sh
 ```
