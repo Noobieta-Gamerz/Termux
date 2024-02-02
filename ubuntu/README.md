@@ -5,4 +5,9 @@
 
 ### install ubuntu bionic x86_64 👇
 ```
-curl -sL 
+curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x86_64/install-me.sh
+```
+
+### Backup Rootfs ubuntu bionic x86_64
+#### for support me 😞
+
