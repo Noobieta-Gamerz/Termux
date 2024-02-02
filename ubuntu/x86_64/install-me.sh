@@ -1,6 +1,6 @@
 #/bin/bash
 echo -e "              Please waiiiitt for install package... (^_^)"
-apt update > /dev/null 2>&1 && apt upgrade > /dev/null 2>&1 && apt --assume-yes install nala > /dev/null 2>&1 && nala install figlet proot
+apt update > /dev/null 2>&1 && apt upgrade > /dev/null 2>&1 && apt --assume-yes install nala wget tar > /dev/null 2>&1 && nala install figlet proot
 cd
 wget https://github.com/Noobieta-Gamerz/Termux/raw/main/qemu-termux/qemu-x86_64
 
