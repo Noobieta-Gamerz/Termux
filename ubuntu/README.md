@@ -11,7 +11,7 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x8
 
 ### Backup Rootfs ubuntu bionic x86_64
 #### for support me 😞 Download 👇 without intallation
-<p align="center" width="100%"><a href="#"><img src="https://nobita-gamerz.github.io/img-asset/Download.png"></a></p>
+<p align="center" width="100%"><a href="https://sfl.gl/loHBmI"><img src="https://nobita-gamerz.github.io/img-asset/Download.png"></a></p>
 
 ```
 #Download and extract
