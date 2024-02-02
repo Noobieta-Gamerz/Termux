@@ -2,7 +2,7 @@
 echo -e "              Please waiiiitt for install package... (^_^)"
 echo ""
 sleep 20;
-echo " lumayan lama guys 😄"sleep 3;
+echo " lumayan lama guys 😄";sleep 3;
 sleep 30; echo " sabar sabar sabar 😄";
 sleep 5;
 apt update > /dev/null 2>&1 && echo "  be patien 😄" && apt upgrade --assume-yes > /dev/null 2>&1 && echo " Bentar lagi beres gan 😆" && apt --assume-yes install nala > /dev/null 2>&1 && nala install wget tar figlet proot && 
