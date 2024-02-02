@@ -9,5 +9,12 @@ curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x8
 ```
 
 ### Backup Rootfs ubuntu bionic x86_64
-#### for support me 😞
+#### for support me 😞 Download 👇
+<p align="center" width="100%"><a href src="#"><img src="https://nobita-gamerz.github.io/img-asset/Download.png"></a></p>
 
+```
+#Download and extract
+-xvf ubuntu-rootfs.tar.xz
+#for run :
+./start-ubuntu.sh
+```
