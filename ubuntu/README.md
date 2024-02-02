@@ -6,7 +6,7 @@
 
 ### install ubuntu bionic x86_64 👇 without `root`
 ```
-curl -sL https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x86_64/install_me.sh | bash 
+wget https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x86_64/install_me.sh && bash install_me.sh
 ```
 
 ### Backup Rootfs ubuntu bionic x86_64
