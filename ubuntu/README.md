@@ -6,6 +6,7 @@
 
 ### install ubuntu bionic x86_64 👇 without `root`
 ```
+apt install wget -y
 wget https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x86_64/install_me.sh && bash install_me.sh
 ```
 
