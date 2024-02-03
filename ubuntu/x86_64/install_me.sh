@@ -25,3 +25,4 @@ figlet -c Finish yey
 echo "  $(date)"
 echo -e "    [•] Note : for start ubuntu : ./start-ubuntu.sh happiness day (^_^)"
 cd ~/vm-termux
+rm ubuntu-rootfs.tar.xz
