@@ -12,6 +12,7 @@ mv ~/qemu-x86_64 $PREFIX/bin/
 mkdir vm-termux
 cd ~/vm-termux
 echo ""
+sleep 3;
 echo -e "           Drive download content 😚 Be patient ....."
 echo ""
 sleep 5;
