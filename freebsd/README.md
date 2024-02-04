@@ -1,4 +1,4 @@
-<h2><p align="center">FREEBSD OS ANDROID
+<h2><p align="center">FREEBSD OS ON ANDROID
 </p></h2>
 
 <p align="center" width=="100%">
