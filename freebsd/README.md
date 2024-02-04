@@ -7,3 +7,5 @@
 Install FreeBSD
 ===============
 1. [Install Manual](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/Manual_install_freebsd.md)
+2. [Simple Install](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/Install_Freebsd_on_Android.md)
+3. [Resize Disk On FreeBSD](#)
