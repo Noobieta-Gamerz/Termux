@@ -21,5 +21,11 @@ tar -xvf ubuntu-rootfs.tar.xz
 #for run :
 ./start-ubuntu.sh
 ```
+>[!NOTE]
+> For android 10 +
+> ```
+> nano ~/vm-termux/start-ubuntu.sh
+> add -b /apex line command+=" -q qemu-x86_64 ...
+> ```
 
 `ane tamvan 😆` `ubuntu` `ubuntu bionic`
