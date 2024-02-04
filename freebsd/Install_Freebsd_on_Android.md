@@ -1,4 +1,4 @@
-<p align="center"><h2>INSTALL FREEBDS ON ANDROID</h2></p>
+<h2><p align="center">INSTALL FREEBDS ON ANDROID</p></h2>
 
 Download AArch64 VM qemu image of FreeBSD
 $ wget https://download.freebsd.org/ftp/releases/VM-IMAGES/12.2-BETA1/aarch64/Latest/FreeBSD-12.2-BETA1-arm64-aarch64.qcow2.xz
