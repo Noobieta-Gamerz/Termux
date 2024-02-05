@@ -7,7 +7,7 @@
 Install FreeBSD
 ===============
 1. [Install Manual](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/Manual_install_freebsd.md)
-2. [Simple Install](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/Install_Freebsd_on_Android.md)
+2. [Simple Install](#)
 3. [Running Qemu On Background](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/qemu_run_on_background.md)
 4. [Resize Disk On FreeBSD](https://github.com/Noobieta-Gamerz/Termux/blob/main/freebsd/Resize_Disk_Qemu_Freebsd.md)
 5. [Setting SSH FreeBSD](#)
