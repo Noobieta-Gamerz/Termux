@@ -3,9 +3,10 @@ QEMU ON BACKGROUND</p></h2>
 
 ##### change and add
 ```
+#Change :
 -serial telnet::4444,server
 -monitor telnet::4444,server
-add
+#add :
 ,nowait -serial mon:stdio
 ```
 
