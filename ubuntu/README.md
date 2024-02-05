@@ -9,7 +9,8 @@
 apt install wget -y
 wget https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/ubuntu/x86_64/install_me.sh && bash install_me.sh
 ```
-[![]()](https://youtu.be/YuL84WtaSHs)
+
+[![](https://markdown-videos-api.jorgenkh.no/YuL84WtaSHs)](https://youtu.be/YuL84WtaSHs)
 
 ### Backup Rootfs ubuntu bionic x86_64
 #### for support me 😞 Download 👇 without intallation
