@@ -25,6 +25,11 @@ unxz FreeBSD-12.2-BETA1-arm64-aarch64.qcow2.xz
 >if error download check source and change source for download :
 >[site freebsd image](https://download.freebsd.org/ftp/releases/VM-IMAGES/)
 >
+##### or this 👇
+##### FreeBSD 14
+```
+wget https://mirrors.ustc.edu.cn/freebsd/releases/VM-IMAGES/14.0-RELEASE/aarch64/Latest/FreeBSD-14.0-RELEASE-arm64-aarch64.qcow2.xz
+```
 #### Download EFI boot loader from:
 ```
 wget https://releases.linaro.org/components/kernel/uefi-linaro/15.12/release/qemu64/QEMU_EFI.fd
