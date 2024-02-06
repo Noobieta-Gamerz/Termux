@@ -4,3 +4,9 @@
 #### Install Fugulta
 1. [Manual Install](#)
 2. [Simple Install](#)
+
+
+
+:octocat: Reference
+=====================
+[+] [Guide Fugulta](https://fuguita.org/?FuguIta/StartGuide)
