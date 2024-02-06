@@ -37,12 +37,12 @@ DISTRO_PATH=$PREFIX/var/lib/proot-distro/installed-rootfs/\${DISTRO:-"alpine"}
 environments=""
 
 ! [ -z "\$KEEPENV" ] && for i in \$(env); do
-        filtered=0
-        # Don't put some filtered variables
-        for env in \$FILTER_ENV; do
-                (echo \$i | grep -qo \$env) && filtered=1
-        done
-        [ "\$filtered" = 0 ] && environments="\$environments export \$i;"
+	filtered=0
+	# Don't put some filtered variables
+	for env in \$FILTER_ENV; do
+		(echo \$i | grep -qo \$env) && filtered=1
+	done
+	[ "\$filtered" = 0 ] && environments="\$environments export \$i;"
 done
 
 cat <<- END > \$DISTRO_PATH/etc/profile.d/mixedtermux.sh
@@ -60,11 +60,11 @@ ARGS=("proot-distro login \${DISTRO:-alpine}")
 ARGS+=("--termux-home --shared-tmp --fix-low-ports")
 ! [ -z "\$ADDITIONAL_ARGS" ] && ARGS+=("\$ADDITIONAL_ARGS")
 [ -S $(echo \$TMPDIR/pulse-*/native) ] && ARGS+=("--bind \$(echo \$TMPDIR/pulse-*/native):/var/run/pulse/native")
-ARGS+=("--bind \$(pwd) --user \${USER:-"root"} --")
+ARGS+=("--bind \$(pwd) --user \${USER:-"root"} --") 
 
 exec \${ARGS[@]} \$*
 EOF
 
 sed -i "s/command-not-found \"\$1\"/command-not-found \$\*/g" $PREFIX/etc/bash.bashrc
 
-[ -r $PREFIX/share/fish/functions/fish_command_not_found.fish ] && sed -i "s/\$argv\[1\]/\"\$argv\"/g" $PREFIX/share/fish/functions/fish_command_not_found.fish
+[ -r $PREFIX/share/fish/functions/fish_command_not_found.fish ] && sed -i "s/\$argv\[1\]/\"\$argv\"/g" $PREFIX/share/fish/functions/fish_command_not_found.fis
