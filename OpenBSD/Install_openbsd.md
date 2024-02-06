@@ -63,9 +63,13 @@ System hostname? (short form, e.g. 'foo') openbsd72
 
 Available network interfaces are: vio0 vlan0.
 Which network interface do you wish to configure? (or 'done') [vio0] 
+
 IPv4 address for vio0? (or 'autoconf' or 'none') [autoconf] 
+
 IPv6 address for vio0? (or 'autoconf' or 'none') [none] 
+
 Available network interfaces are: vio0 vlan0.
+
 Which network interface do you wish to configure? (or 'done') [done] 
 Using DNS domainname my.domain
 Using DNS nameservers at 10.0.2.3
