@@ -1,7 +1,4 @@
-Index of /M2-Apple/OpenBSD72-qemu/
-Name↓	Last Modified:	Size:	Type:
-../	 	-  	Directory
-README.txt	2022-Oct-22 14:03:24	9.8K	text/plain; charset=utf-8
+OPENBSD ANDROID
 -------------------------------------------------------------
  ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ 
 ||O |||p |||e |||n |||B |||S |||D |||       |||7 |||. |||2 ||
@@ -71,40 +68,64 @@ IPv6 address for vio0? (or 'autoconf' or 'none') [none]
 Available network interfaces are: vio0 vlan0.
 
 Which network interface do you wish to configure? (or 'done') [done] 
+
 Using DNS domainname my.domain
+
 Using DNS nameservers at 10.0.2.3
 
 Password for root account? (will not echo) 
+
 Password for root account? (again) 
+
 Start sshd(8) by default? [yes] 
+
 Setup a user? (enter a lower-case loginname, or 'no') [no] user
+
 Full name for user user? [user] user
+
 Password for user user? (will not echo) 
+
 Password for user user? (again) 
+
 WARNING: root is targeted by password guessing attacks, pubkeys are safer.
-Allow root ssh login? (yes, no, prohibit-password) [no] 
+Allow root ssh login? (yes, no, prohibit-password) [no] yes
+
 What timezone are you in? ('?' for list) [Somewhere on Earth] 
 
 Available disks are: sd0 sd1.
 Which disk is the root disk? ('?' for details) [sd0] sd1
+
 MBR has invalid signature; not showing it.
 Use (W)hole disk or (E)dit the MBR? [whole] w
+
 Creating a msdos partition and an OpenBSD partition for rest of sd1...newfs_msdos: /dev/r0000000000000000.i: No such file or directory
 done.
+
 The auto-allocated layout for sd1 is:
 #                size           offset  fstype [fsize bsize   cpg]
   a:           623.3M            65536  4.2BSD   2048 16384     1 # /
+ 
   b:          1026.6M          1342048    swap                    
+ 
   c:         20480.0M                0  unused                    
+ 
   d:           877.2M          3444544  4.2BSD   2048 16384     1 # /tmp
+ 
   e:          1310.6M          5241152  4.2BSD   2048 16384     1 # /var
   f:          2446.6M          7925184  4.2BSD   2048 16384     1 # /usr
+ 
   g:           668.0M         12935808  4.2BSD   2048 16384     1 # /usr/X11R6
+
   h:          2443.9M         14303808  4.2BSD   2048 16384     1 # /usr/local
+
   i:            16.0M            32768   MSDOS                    
+ 
   j:          1689.3M         19308896  4.2BSD   2048 16384     1 # /usr/src
+
   k:          5498.6M         22768608  4.2BSD   2048 16384     1 # /usr/obj
+ 
   l:          3863.9M         34029792  4.2BSD   2048 16384     1 # /home
+
 Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout? [a] a
 newfs: reduced number of fragments per cylinder group from 79776 to 79144 to enlarge last cylinder group
 /dev/rsd1a: 623.3MB in 1276512 sectors of 512 bytes
