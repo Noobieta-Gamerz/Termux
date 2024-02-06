@@ -127,43 +127,85 @@ The auto-allocated layout for sd1 is:
   l:          3863.9M         34029792  4.2BSD   2048 16384     1 # /home
 
 Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout? [a] a
+
 newfs: reduced number of fragments per cylinder group from 79776 to 79144 to enlarge last cylinder group
+
 /dev/rsd1a: 623.3MB in 1276512 sectors of 512 bytes
+
 5 cylinder groups of 154.58MB, 9893 blocks, 19840 inodes each
 /dev/rsd1l: 3863.9MB in 7913248 sectors of 512 bytes
+
 20 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 /dev/rsd1d: 877.2MB in 1796608 sectors of 512 bytes
+
 5 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 /dev/rsd1f: 2446.6MB in 5010624 sectors of 512 bytes
+
 13 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 newfs: reduced number of fragments per cylinder group from 85496 to 84816 to enlarge last cylinder group
+
 /dev/rsd1g: 668.0MB in 1368000 sectors of 512 bytes
+
 5 cylinder groups of 165.66MB, 10602 blocks, 21248 inodes each
+
 /dev/rsd1h: 2443.9MB in 5005088 sectors of 512 bytes
+
 13 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 /dev/rsd1k: 5498.6MB in 11261184 sectors of 512 bytes
+
 28 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 /dev/rsd1j: 1689.3MB in 3459712 sectors of 512 bytes
+
 9 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 /dev/rsd1e: 1310.6MB in 2684032 sectors of 512 bytes
+
 7 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+
 Available disks are: sd0.
+
 Which disk do you wish to initialize? (or 'done') [done] 
+
 /dev/sd1a (72d81c288658c134.a) on /mnt type ffs (rw, asynchronous, local)
-/dev/sd1l (72d81c288658c134.l) on /mnt/home type ffs (rw, asynchronous, local, nodev, nosuid)
-/dev/sd1d (72d81c288658c134.d) on /mnt/tmp type ffs (rw, asynchronous, local, nodev, nosuid)
-/dev/sd1f (72d81c288658c134.f) on /mnt/usr type ffs (rw, asynchronous, local, nodev)
-/dev/sd1g (72d81c288658c134.g) on /mnt/usr/X11R6 type ffs (rw, asynchronous, local, nodev)
-/dev/sd1h (72d81c288658c134.h) on /mnt/usr/local type ffs (rw, asynchronous, local, nodev)
+
+/dev/sd1l (72d81c288658c134.l) on 
+
+/mnt/home type ffs (rw, asynchronous, local, nodev, nosuid)
+
+/dev/sd1d (72d81c288658c134.d) on 
+
+/mnt/tmp type ffs (rw, asynchronous, local, nodev, nosuid)
+
+/dev/sd1f (72d81c288658c134.f) on 
+/mnt/usr type ffs (rw, asynchronous, local, nodev)
+
+/dev/sd1g (72d81c288658c134.g) on 
+/mnt/usr/X11R6 type ffs (rw, asynchronous, local, nodev)
+
+/dev/sd1h (72d81c288658c134.h) on 
+/mnt/usr/local type ffs (rw, asynchronous, local, nodev)
+
 /dev/sd1k (72d81c288658c134.k) on /mnt/usr/obj type ffs (rw, asynchronous, local, nodev, nosuid)
+
 /dev/sd1j (72d81c288658c134.j) on /mnt/usr/src type ffs (rw, asynchronous, local, nodev, nosuid)
+
 /dev/sd1e (72d81c288658c134.e) on /mnt/var type ffs (rw, asynchronous, local, nodev, nosuid)
+
 
 Let's install the sets!
 Location of sets? (disk http nfs or 'done') [http] 
+
 HTTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none] 
+
 HTTP Server? (hostname, list#, 'done' or '?') [ftp.OpenBSD.org] 
+
 Server directory? [pub/OpenBSD/7.2/arm64] 
+
 
 Select sets by entering a set name, a file name pattern or 'all'. De-select
 sets by prepending a '-', e.g.: '-game*'. Selected sets are labelled '[X]'.
