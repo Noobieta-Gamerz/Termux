@@ -5,11 +5,19 @@
 
 ##### Download OpenBSD image
 ```
+mkdir iso
+cd iso
 wget https://cdn.openbsd.org/pub/OpenBSD/7.4/arm64/install74.img
 ```
 ##### Download Bootloader Openbsd
 ```
+mkdir bootloader
+cd bootloader
 wget https://github.com/Noobieta-Gamerz/Termux/raw/main/OpenBSD/openbsd-arm64EFI.fd
+```
+##### Create Image qemu
+```
+qemu-image
 ```
 ##### running qemu
 ```
