@@ -1,9 +1,11 @@
 `Termux` `arm64` `qemu`
 <h2><p align="center">OPENBSD MANUAL INSTALL</p></h2>
 
+:octocat: `OpenBSD 7.4`
+
 ##### Download OpenBSD image
 ```
-wget
+wget https://cdn.openbsd.org/pub/OpenBSD/7.4/arm64/install74.img
 ```
 ##### Download Bootloader Openbsd
 ```
