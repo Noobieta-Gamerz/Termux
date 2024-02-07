@@ -1,6 +1,8 @@
 `Termux` `arm64` `qemu`
 <h2><p align="center">OPENBSD MANUAL INSTALL</p></h2>
-
+<p align="center">
+  <img width="80%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUAxrzFL_8HUrf39QerjtcvMCaK4NxBCrYmg&usqp=CAU"></p>
+  
 :octocat: `OpenBSD 7.4`
 
 ##### Download OpenBSD image
@@ -17,8 +19,12 @@ wget https://github.com/Noobieta-Gamerz/Termux/raw/main/OpenBSD/openbsd-arm64EFI
 ```
 ##### Create Image qemu
 ```
-qemu-image
+mkdir img
+cd img
+
+qemu-img create -f qcow2 obsd_aarch64.qcow2 32G
 ```
+#### installation
 ##### running qemu
 ```
 qemu-system-aarch64 \
