@@ -1,10 +1,14 @@
 `Termux` `arm64` `qemu`
 <h2><p align="center">OPENBSD MANUAL INSTALL</p></h2>
 
-##### Download 
-
-
-
+##### Download OpenBSD image
+```
+wget
+```
+##### Download Bootloader Openbsd
+```
+wget https://github.com/Noobieta-Gamerz/Termux/raw/main/OpenBSD/openbsd-arm64EFI.fd
+```
 ##### running qemu
 ```
 qemu-system-aarch64 \
