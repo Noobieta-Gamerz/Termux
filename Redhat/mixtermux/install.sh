@@ -7,7 +7,7 @@
 
 # Distribution / Distro alias
 # To view the available distro, Check "proot-distro list" command
-DISTRO=radhat
+DISTRO=redhat
 
 # User to execute as
 USER=root
@@ -28,11 +28,11 @@ EOF
 cat <<- EOF > $PREFIX/libexec/termux/command-not-found
 #!$PREFIX/bin/env bash
 
-DISTRO_PATH=$PREFIX/var/lib/proot-distro/installed-rootfs/\${DISTRO:-"radhat"}
+DISTRO_PATH=$PREFIX/var/lib/proot-distro/installed-rootfs/\${DISTRO:-"redhat"}
 
 [ -f ~/.mixedtermuxrc ] && source ~/.mixedtermuxrc
 ! command -v proot-distro > /dev/null && pkg install -y proot-distro
-! [ -d \$DISTRO_PATH ] && ! [ -z "\$(ls -A \$DISTRO_PATH)" ] && proot-distro install \${DISTRO:-"radhat"}
+! [ -d \$DISTRO_PATH ] && ! [ -z "\$(ls -A \$DISTRO_PATH)" ] && proot-distro install \${DISTRO:-"redhat"}
 
 environments=""
 
