@@ -22,3 +22,12 @@ wget https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2021-12
 ```
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
 ```
+##### Download Cursors
+```
+git clone https://github.com/vinceliuice/WhiteSur-cursors
+```
+##### Download xapple Menu
+```
+wget
+```
+
