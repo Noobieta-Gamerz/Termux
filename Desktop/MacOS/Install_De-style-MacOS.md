@@ -76,4 +76,52 @@ localhost:5901
 name example termux-desktop
 #input password vnc
 ###PC
+Download vnc viewer for PC
+https://www.realvnc.com/en/connect/download/viewer/
+#input
+ip:5901
+ip: termux
+check ip: ifconfig
 ```
+>[!NOTE]
+>##### if black screen
+>```
+>nano .vnc/xstartup
+>comment # for aterm and # twm &
+>add startxfce4 &
+>```
+>##### geometry
+>```
+>nano .vnc/config
+>uncomment # geometry
+>change to 1280x800
+>```
+>##### example xstartup
+>```
+>#!/data/data/com.termux/files/usr/bin/sh
+>## This file is executed during VNC server
+>## startup.
+>
+># Launch terminal emulator Aterm.
+># Requires package 'aterm'.
+>#aterm -geometry 80x24+10+10 -ls &
+>
+># Launch Tab Window Manager.
+># Requires package 'xorg-twm'.
+>#twm &
+>startxfce4 &
+>```
+>##### example config
+>```
+>## Supported server options to pass to vncserver upon invocation can be listed
+>## in this file. See the following manpages for more: vncserver(1) Xvnc(1).
+>## Several common ones are shown below. Uncomment and modify to your liking.
+>##
+># securitytypes=vncauth,tlsvnc
+># desktop=sandbox
+>geometry=1280x800
+># localhost
+># alwaysshared
+>```
+
+
