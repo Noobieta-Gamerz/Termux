@@ -123,5 +123,9 @@ check ip: ifconfig
 ># localhost
 ># alwaysshared
 >```
+##### Download wellpaper etc 
+```
+wget https://www.opencode.net/lsteam/xfce-big-sur-setup-file/-/raw/master/update-xfce-bigsur.zip
+```
 
 
