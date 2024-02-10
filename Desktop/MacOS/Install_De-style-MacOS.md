@@ -127,5 +127,27 @@ check ip: ifconfig
 ```
 wget https://www.opencode.net/lsteam/xfce-big-sur-setup-file/-/raw/master/update-xfce-bigsur.zip
 ```
-
+##### unzip update-xfce-bigsur.zip
+```
+unzip update-xfce-bigsur.zip
+ls update-xfce-bigsur
+#you can copy wallpaper any folder etc
+##for example :
+cd
+mkdir .wallpaper
+copy wallpaper on update-xfce-bigsur to $HOME/.wallpaper
+```
+#### unzip xapple_menu
+```
+unzip xpple_menu.zip
+mv applications $HOME/.local/share/
+for check :
+ls $HOME/.local/share/
+ls .config
+mkdir .config/menu
+mv xpple.menu .config/menu
+for check :
+ls .config/menu
+```
+##### check my video 😄
 
