@@ -28,6 +28,38 @@ git clone https://github.com/vinceliuice/WhiteSur-cursors
 ```
 ##### Download xapple Menu
 ```
-wget
+wget https://github.com/Noobieta-Gamerz/Termux/raw/main/Desktop/MacOS/xpple_menu.zip
 ```
+##### unzip themes
+```
+unzip 2021-12-28.zip
+```
+##### create folder
+```
+mkdir .themes
+mkdir .icons
+```
+##### move themes
+```
+cd WhiteSur-gtk-themes-2021-12-28/release/
+cp *.tar.xz $HOME/.themes/
+```
+##### extract themes
+```
+cd $HOME/.themes/
+tar -xvf WhiteSur-light-40-0.tar.xz
+tar -xvf WhiteSur-dark-40-0.tar.xz
+```
+##### Move icons or install icons
+```
+cd $HOME/WhiteSur-icon-theme
+./install.sh
+```
+##### Move or Install Cursors
+```
+cd $HOME/WhiteSur-cursors/
+./install.sh
+```
+
+
 
