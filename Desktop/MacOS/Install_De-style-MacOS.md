@@ -12,5 +12,13 @@ pkg install x11-repo -y
 ```
 ##### Install De xfce4
 ```
-apt install xfce4 xfce4-goodies xfce4-terminal rofi -y
+apt install xfce4 xfce4-goodies xfce4-terminal rofi git curl wget openssh tigervnc -y
+```
+##### Download Themes
+```
+wget https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2021-12-28.zip
+```
+##### Download icons
+```
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme
 ```
