@@ -6,7 +6,7 @@
 
 :octocat: `fuguita is based on openbsd`
 #### Install Fugulta
-1. [Manual Install](#)
+1. [Manual Install](https://github.com/Noobieta-Gamerz/Termux/blob/main/Fugulta/Manual_install.md)
 2. [Simple Install](#)
 
 
