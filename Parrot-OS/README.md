@@ -25,10 +25,11 @@ apt install proot tar -y
 ```
 mkdir parrot-os
 cd /sdcard/Download
-mv parrotos_arm64-rootfs.tar.xz $HOME/parrot-os
+mv parrotos_arm64-ara.tar.gz
+$HOME/parrot-os
 cd $HOME/parrot-os
-tar -xvf parrotos_arm64-rootfs.tar.xz
-rm parrotos_arm64-rootfs.tar.xz
+tar -zxf parrotos_arm64-ara.tar.gz
+rm parrotos_arm64-ara.tar.gz
 
 ## For start parrot-os
 chmod +x parrot-arm64.sh
