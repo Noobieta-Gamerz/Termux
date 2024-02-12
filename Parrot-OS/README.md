@@ -37,6 +37,7 @@ chmod +x parrot-arm64.sh
 ```
 ##### Video Installation
 ![video](https://markdown-videos-api.jorgenkh.no/youtube/MT2it3D4EcQ.gif?width=320&height=180&duration=500)
+
 😄 njoooy with coffee ☕
 
 ##### reference
