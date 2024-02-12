@@ -18,7 +18,7 @@ apt install proot tar -y
 ##### Download Rootfs 
 
 <p align="center" width="100%">
-  <a href="#">
+  <a href="https://sfl.gl/ItCk">
     <img src="https://nobita-gamerz.github.io/img-asset/Download.png"></a></p>
 
 #### Extract 
@@ -34,3 +34,7 @@ rm parrotos_arm64-rootfs.tar.xz
 chmod +x parrot-arm64.sh
 ./parrot-arm64.sh
 ```
+😄 njoooy with coffee ☕
+
+##### reference
+[•][parrot sites](#)
