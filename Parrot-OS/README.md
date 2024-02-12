@@ -17,7 +17,9 @@ apt install proot tar -y
 ```
 ##### Download Rootfs 
 
-
+<p align="center" width="100%">
+  <a href="#">
+    <img src="https://nobita-gamerz.github.io/img-asset/Download.png"></a></p>
 
 #### Extract 
 ```
