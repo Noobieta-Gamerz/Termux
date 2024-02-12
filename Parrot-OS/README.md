@@ -37,4 +37,8 @@ chmod +x parrot-arm64.sh
 😄 njoooy with coffee ☕
 
 ##### reference
-[•][parrot sites](#)
+[•][parrot sites](https://www.parrotsec.org/)
+
+[•]https://www.parrotsec.org/
+
+`parrot-os security` `ane tamvan 😆`
