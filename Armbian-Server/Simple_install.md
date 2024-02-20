@@ -55,3 +55,7 @@ bash start-armbian.sh
 >
 
 `armbian server` `termux` `arm64` `tamvan 😆`
+
+:octocat: Reference:
+===================
+[•] [armbian linux](https://www.armbian.com/)
