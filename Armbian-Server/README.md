@@ -8,7 +8,7 @@
 :octocat: `ubuntu based`
 
 1. [Manual Install](#)
-2. [Simple Install](#)
+2. [Simple Install](https://github.com/Noobieta-Gamerz/Termux/blob/main/Armbian-Server/Simple_install.md)
 
 :octocat: Reference:
 ===================
