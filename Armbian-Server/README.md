@@ -10,5 +10,6 @@
 1. [Manual Install](#)
 2. [Simple Install](#)
 
-:octocat: ##### Reference:
-1. [•] [armbian linux](#)
+:octocat: Reference:
+===================
+[•] [armbian linux](https://www.armbian.com/)
