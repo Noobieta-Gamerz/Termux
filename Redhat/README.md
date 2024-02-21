@@ -6,6 +6,8 @@
 3. [Install EPEL release Redhat](#)
 4. [Redhat No Verification](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Redhat-without-verify-subscribe.md)
 5. [Install Docker Engin On Redhat 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Install%20Docker%20Engine%20on%20RedhatOS.md)
+6. [Error: rpmdb open failed](#)
+7. [Setting SSH SERVER](#)
 
 #### Mirror list
 * [tsukuba](http://ftp.tsukuba.wide.ad.jp/Linux/)
