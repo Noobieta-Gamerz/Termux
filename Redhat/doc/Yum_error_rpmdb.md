@@ -1,6 +1,7 @@
 <h2><p align="center">Error: rpmdb open failed</h2>
 <h2><p align="center">On REDHAT/CENTOS</h2>
-
+<p align="center">
+<img widht="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6T6AvbtMx_COB2XPMmmwqfwF0PIBcABKlQ&usqp=CAU"></p>
 
 solution
 ========
