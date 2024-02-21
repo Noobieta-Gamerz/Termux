@@ -1,3 +1,4 @@
+`termux` `linux` `ane tamvan 😆`
 <h2><p align="center">Error: rpmdb open failed</h2>
 <h2><p align="center">On REDHAT/CENTOS</h2>
 <p align="center">
@@ -27,4 +28,4 @@ example install packages
 yum install httpd
 ```
 
-`yum error db` `redhat error db``ane tamvan 😆`
+`yum error db` `redhat error db` `ane tamvan 😆`
