@@ -1,6 +1,10 @@
+`Termux` `arm64` `ubi8`
 <h2><p align="center">REDHAT-OS</p></h2>
 
 ![ss google](https://i0.wp.com/www.webpronews.com/wp-content/uploads/2023/06/Red-Hat-Logo-1.jpg)
+:octocat: `arm64`
+
+:octocat: `Redhat Universal Base Image 8`
 1. Install Redhat OS on PC Free
 2. [Install Redhat OS on Android](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/install-redhat_on_android.md)
 3. [Install EPEL release Redhat](#)
@@ -8,6 +12,7 @@
 5. [Install Docker Engin On Redhat 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Install%20Docker%20Engine%20on%20RedhatOS.md)
 6. [Error: rpmdb open failed](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Yum_error_rpmdb.md)
 7. [Setting SSH SERVER](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_ssh_redhat.md)
+8. [Install JAVA on Redhat](#)
 
 #### Mirror list
 * [tsukuba](http://ftp.tsukuba.wide.ad.jp/Linux/)
