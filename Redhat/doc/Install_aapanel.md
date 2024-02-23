@@ -30,4 +30,19 @@ yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_
 >if aapanel error hostname empty!!!
 >```
 >echo "localhost" > /etc/hostname
+>#### reinstall again aapanel
+>```
+
+##### Aapanel Failed Start
+###### Example :
+<p align="center">
+<img widht="80%" src="https://imagizer.imageshack.com/img922/1741/znjhdi.jpg">
+</p>
+
+>[!NOTE]
+>If aapanel failed start
+>```
+>chmod -R 700 /www
+>#### restart again
+>bt restart or bt start
 >```
