@@ -22,3 +22,12 @@ nano /etc/nginx/ports conf
 
 #### change port to 8000
 ```
+##### Running nginx
+```
+nginx
+check http://IP:8000
+```
+##### Stop nginx
+```
+pkill nginx
+```
