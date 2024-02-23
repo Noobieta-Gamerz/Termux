@@ -8,9 +8,21 @@
 yum update
 yum install openssh-server
 ```
+##### Test
+```
+/usr/sbin/sshd -D
+```
+>[!NOTE]
+>```
+>[root@localhost ~]# /usr/sbin/sshd -D
+>Unable to load host key: /etc/ssh/ssh_host_rsa_key
+>Unable to load host key: /etc/ssh/ssh_host_ecdsa_key
+>Unable to load host key: /etc/ssh/ssh_host_ed25519_key
+>sshd: no hostkeys available -- exiting.
+>```
 ##### Generate keygen
 ```
-ssh-keygen -t A
+ssh-keygen -A
 ```
 ##### Setting SSH
 ```
@@ -20,5 +32,5 @@ uncomment port ssh
 ```
 ##### Run SSHD ON PROOT
 ```
-nohup /usr/sbin/sshd -D &
+/usr/sbin/sshd -D &
 ```
