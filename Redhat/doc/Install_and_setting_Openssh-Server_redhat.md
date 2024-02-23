@@ -1,5 +1,5 @@
 `termux` `ssh redhat` `ane tamvan 😆`
-<h2><p align="center">INSTALL SSH ON REDHAT</p></h2>
+<h2><p align="center">INSTALL AND SETTING OPENSSH-SERVER ON REDHAT</p></h2>
 <p align="center">
 <img widht="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfHrtAX5r7KVhyH78qHQi9plSqLjV0WoNtw&usqp=CAU"></p>
 
@@ -34,3 +34,8 @@ uncomment port ssh
 ```
 /usr/sbin/sshd -D &
 ```
+##### Stop SSHD
+```
+pkill sshd
+```
+`Termux` `redhat-ubi8` `arm64` `openssh-server`
