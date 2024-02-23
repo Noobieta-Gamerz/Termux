@@ -46,3 +46,13 @@ yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_
 >#### restart again
 >bt restart or bt start
 >```
+:octocat: Be patient installing and compiling aapanel 😽 ☕ 🍰
+
+##### screenshot aapanel on redhat arm64
+<p align="center">
+<img widht="center" src="https://imagizer.imageshack.com/img924/7293/lkxhq2.jpg">
+</p>
+
+:octocat: Reference 
+====================
+[•] [All About Aapanel](https://www.aapanel.com/new/index.html)
