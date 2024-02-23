@@ -11,7 +11,7 @@
 4. [Redhat No Verification](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Redhat-without-verify-subscribe.md)
 5. [Install Docker Engin On Redhat 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Install%20Docker%20Engine%20on%20RedhatOS.md)
 6. [Error: rpmdb open failed](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Yum_error_rpmdb.md)
-7. [Setting SSH SERVER](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_ssh_redhat.md)
+7. [Setting SSH SERVER](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_and_setting_Openssh-Server_redhat.md)
 8. [Install JAVA on Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_java.md)
 
 #### Mirror list
