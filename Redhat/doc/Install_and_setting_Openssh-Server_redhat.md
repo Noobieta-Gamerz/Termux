@@ -14,6 +14,7 @@ yum install openssh-server
 ```
 >[!NOTE]
 >```
+>if error like this :
 >[root@localhost ~]# /usr/sbin/sshd -D
 >Unable to load host key: /etc/ssh/ssh_host_rsa_key
 >Unable to load host key: /etc/ssh/ssh_host_ecdsa_key
