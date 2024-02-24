@@ -18,7 +18,7 @@ yum install nginx
 ##### Setting Port
 ###### example port 8000
 ```
-nano /etc/nginx/ports conf
+nano /etc/nginx/nginx.conf
 
 #### change port to 8000
 ```
@@ -31,3 +31,8 @@ check http://IP:8000
 ```
 pkill nginx
 ```
+:octocat: Reference 
+===================
+[•] [ nginx official](https://www.nginx.com/)
+
+[•] [Apa itu NGINX?Pengertian dan cara kerjanya](https://www.hostinger.co.id/tutorial/apa-itu-nginx)
