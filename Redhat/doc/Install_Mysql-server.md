@@ -9,7 +9,7 @@
 
 ##### Adding the MySQL Yum Repository
 ```
-https://repo.mysql.com//mysql80-community-release-el8-5.noarch.rpm
+yum install https://repo.mysql.com//mysql80-community-release-el9-5.noarch.rpm
 ```
 ##### Check Repo
 ```
