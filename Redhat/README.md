@@ -7,7 +7,7 @@
 :octocat: `Redhat Universal Base Image 8`
 1. Install Redhat OS on PC Free
 2. [Install Redhat OS on Android](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/install-redhat_on_android.md)
-3. [Install EPEL release Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_Epel_release.md)
+3. [Install-Setup EPEL and RPMFusion Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Setup_Epel_and_RPMfusion.md)
 4. [Redhat No Verification](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Redhat-without-verify-subscribe.md)
 5. [Install Docker Engin On Redhat 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Install%20Docker%20Engine%20on%20RedhatOS.md)
 6. [Error: rpmdb open failed](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Yum_error_rpmdb.md)
