@@ -12,7 +12,11 @@
 5. [Install Docker Engin On Redhat 7](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/Install%20Docker%20Engine%20on%20RedhatOS.md)
 6. [Error: rpmdb open failed](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Yum_error_rpmdb.md)
 7. [Setting SSH SERVER](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_and_setting_Openssh-Server_redhat.md)
-8. [Install JAVA on Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_java.md)
+8. [Install and Setting Nginx Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_dan_Setting_nginx.md)
+9. [Install PHP on Redhat](#)
+10. [Install Mysql-Server On Redhat](#)
+11. [Install PHPmyAdmin On Redhat](#)
+12. [Install JAVA on Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_java.md)
 
 #### Mirror list
 * [tsukuba](http://ftp.tsukuba.wide.ad.jp/Linux/)
