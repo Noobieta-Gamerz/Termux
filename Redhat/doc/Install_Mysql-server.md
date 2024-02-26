@@ -24,6 +24,17 @@ yum repolist enabled | grep "mysql.*-community.*"
 yum update
 yum install mysql-community-server --nogpgcheck
 ```
+##### Configuration And Running
+```
+for configuration:
+nano /etc/my.cnf
+add :
+[mysqld]
+user=root
+```
+[example my.cnf](#)
+
+
 >[!NOTE]
 >If can't running mysqld
 >Install Mysql Server With Aapanel
