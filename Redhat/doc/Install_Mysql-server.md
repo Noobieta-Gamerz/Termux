@@ -24,3 +24,9 @@ yum repolist enabled | grep "mysql.*-community.*"
 yum update
 yum install mysql-community-server --nogpgcheck
 ```
+>[!NOTE]
+>If can't running mysqld
+>Install Mysql Server With Aapanel
+>[Install Aapanel On Redhat](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/Install_aapanel.md)
+
+`mysql server redhat-ubi8 arm64`
