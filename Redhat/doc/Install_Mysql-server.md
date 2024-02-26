@@ -32,7 +32,7 @@ add :
 [mysqld]
 user=root
 ```
-[example my.cnf](#)
+[example my.cnf](https://github.com/Noobieta-Gamerz/Termux/blob/main/Redhat/doc/MySQL/my.cnf.md)
 
 
 >[!NOTE]
