@@ -24,7 +24,7 @@ hostname localhost
 ```
 ##### Install Aapanel
 ```
-yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
+yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/Noobieta-Gamerz/Termux/main/Redhat/Aapanel-redhat.sh && bash install.sh aapanel
 ```
 >[!NOTE]
 >if aapanel error hostname empty!!!
